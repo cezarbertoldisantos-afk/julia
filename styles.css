@@ -1,0 +1,58 @@
+body {
+    color: white;
+    background: #2c3e50;  /* Cor de fundo mais tropical e vibrante */
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px #ffbc42;  /* Cor mais dourada e vibrante */
+    padding: 20px;
+    font-size: 32px;
+    color: #ffbc42;  /* Dourado para dar um tom mais tropical */
+}
+
+.chamada {
+    background: #58d68d;  /* Verde mais claro, remetendo à vegetação tropical */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #f39c12;  /* Cor de amarelo para destacar mais o título */
+}
+
+p {
+    font-size: 20px;
+    color: #ff5733;  /* Tom de laranja para um visual mais quente */
+}
+
+img {
+    height: 200px;
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);  /* Efeito de zoom ao passar o mouse */
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
